@@ -1,0 +1,53 @@
+订餐系统：
+1.系统分析
+	1、resadmin 管理员
+	2、resuser 用户表
+	3、resfood 菜品
+	4、resorder 订单
+	5、resorderitem 订单明细
+	6、resorderitemtemp 退菜
+	
+2.概要设计
+3.详细设计
+
+4.工程搭建
+	1、导入数据库脚本
+	2、创建工程（JDK、字符集设置）
+	3、导入相关jar包（mysql驱动、文件上传、jstl、Log4j）
+		Log4j( log for java)日志管理  info、debug、error
+		log4j.properties 拷贝 src下
+	4、按照MVC模型建包（bean(vo,entity)、biz(service,buss)、dao、web(action,controller)、util）
+	5、导入工具类（DBHelper、VerifyCodeUtils。。。）
+	6、创建实体类、业务接口、DAO接口、异常类
+	7、导入静态页面==>WebContent
+	8、创建公共页面（404.jsp、500.jsp、index.jsp）
+    
+5.功能开发
+	一、前台功能
+	1、首页菜品展示			（查询、分页）
+	2、菜品详情				（详情）
+	3、用户登录				（提交、查询）
+	4、用户注册				（提交、新增）
+	5、加入购物车			（提交）
+	6、购物车展示			（查询）
+	7、下订单				（提交）
+	8、订单查询				（查询）
+	9、确认收货				（提交）
+	10、将购物车商品存储到数据库 *
+	11、使用 Cookie 实现快捷登录 *
+	
+	二、后台系统（easyui）log4j
+	1、菜品查询				（查询）
+	2、菜品新增				（提交）
+	3、订单查询				（查询）
+	4、订单状态管理			（提交）
+	5、用户查询				（查询）
+	6、用户密码重置			（提交）
+	7、订单统计 *
+	8、菜品统计 *
+	
+
+6.测试
+7.部署发布
+
+	
